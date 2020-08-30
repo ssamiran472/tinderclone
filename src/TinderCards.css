@@ -1,0 +1,36 @@
+.card {
+  position: relative;
+  width: 85rem;
+  padding: 20px;
+  max-width: 85vw;
+  height: 50vh;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: 10%;
+  margin-top: 5vh;
+}
+@media (min-width: 700px) {
+  .card {
+    width: 60rem;
+  }
+}
+@media (min-width: 1000px) {
+  .card {
+    max-width: 90vw;
+    height: 60vh;
+  }
+}
+
+.card_contaner {
+  display: flex;
+  justify-content: center;
+}
+
+.swipe {
+  position: absolute;
+}
+.card > h3 {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+}
